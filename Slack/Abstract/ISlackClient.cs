@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Marti.Core.Integrations.Abstract
+namespace Slack.Core.Integrations.Abstract
 {
     public interface ISlackClient
     {
