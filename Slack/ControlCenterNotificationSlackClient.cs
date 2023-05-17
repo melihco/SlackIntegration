@@ -1,8 +1,8 @@
-﻿namespace Marti.Core.Integrations.Concrete.Slack;
+﻿namespace Slack.Core.Integrations.Concrete.Slack;
 
-public class ControlCenterNotificationSlackClient : SystemNotificationSlackClient
+public class NotificationSlackClient : SystemNotificationSlackClient
 {
-    public ControlCenterNotificationSlackClient(string urlWithAccessToken) : base(urlWithAccessToken)
+    public NotificationSlackClient(string urlWithAccessToken) : base(urlWithAccessToken)
     {
 
     }
