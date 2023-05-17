@@ -1,11 +1,11 @@
-﻿using Marti.Core.Integrations.Abstract;
+﻿using Slack.Core.Integrations.Abstract;
 using System;
 using System.Net.Http;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace Marti.Core.Integrations.Concrete.Slack;
+namespace Slack.Core.Integrations.Concrete.Slack;
 
 public class BaseSlackClient : ISlackClient
 {
