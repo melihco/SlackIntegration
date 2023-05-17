@@ -1,4 +1,4 @@
-﻿namespace Marti.Core.Integrations.Concrete.Slack;
+﻿namespace Slack.Core.Integrations.Concrete.Slack;
 
 public class SystemNotificationSlackClient : BaseSlackClient
 {
