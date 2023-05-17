@@ -1,5 +1,5 @@
-﻿using Marti.Core.Integrations.Abstract;
-namespace Marti.Core.Integrations.Concrete.Slack;
+﻿using Slack.Core.Integrations.Abstract;
+namespace Slack.Core.Integrations.Concrete.Slack;
 
 public delegate ISlackClient SlackServiceResolver(SlackHooks key);
 
